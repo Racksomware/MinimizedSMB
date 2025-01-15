@@ -1,0 +1,21 @@
+{
+    "name":"Minimizd SMB",
+    "description":"<Minimized SMB> is a small project done by
+Enot and Waver, which tries to replicate the
+feel and looks of the original SMB for the NES,
+while giving it a little more of... An alternative
+version of it, to put it somehow.",
+
+    "version":"v1.0.18",
+    "ext":".pv8",
+    "gpuChip":"Custom",
+    "cartChip":"Custom",
+    "soundChip":"Custom",
+    "runnerType":"lua",
+    "buildWin":"true",
+    "buildExtras":"",
+    "buildMac":"false",
+    "buildLinux":"false",
+    "paletteMode":"true",
+    
+}

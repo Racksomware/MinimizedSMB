@@ -1,0 +1,30 @@
+-- [main options page] --
+[option name] / [option options]          [default value]> [option desc]
+
+-- GENERAL --
+Allow Biside Movement (True/False)                [FALSE]> Forces so in levels where you can't go back ignores said rule.
+Physics Engine (Vanilla/Original SMB/SMW)       [VANILLA]> Makes the physics engine imitate the physics of said games.  [NOT AN EXACT COPY!]
+Endable Semisolids (True/False)                   [FALSE]> Allow that for certain objects they work as Semisolids from recent games.
+Overworld Map (True/False)                         [TRUE]> Endables (or disables) the Overworld map, if someone isn't really in the mood to manually select a level.
+Timer in Levels (True/False)                       [TRUE]> For levels that doesn't force the use of Time, should them be endabled or not?
+Fast Respawn (True/False/Instant)                 [FALSE]> When you die, you wait a little time. This option makes you, well, waste less time.
+
+-- AUDIO --
+Sound Effects Volume (5 > 0)                          [4]> Just ya' typical sound settings!
+Music Volume (5 > 0)                                  [3]> Just ya' typical music settings!
+Menu Sound Effects Volume (5 > 0)                     [3]> Just ya' typical HUD sound settings!
+General Sound Effects Quietness (5 > 1)               [3]> How intense the sound effects are played out.
+Music selection (Vanilla/SMB Remix)             [VANILLA]> Which soundtrack to play ingame.
+LowTime Music SpeedUp (True/False)                 [TRUE]> When the Timer hits 100 seconds (or less), the music should play faster or not?
+
+
+-- VIDEO --
+
+
+
+-- SPECIAL --
+Slugcat Gameplay (None/Visual/Physics/Both)       [None]> Allows the player to play in a "Slugcat" manner, reminiscent of Rain World's gameplay.
+RW-esque SFX (True/False)                        [FALSE]> Makes the sounds of the game resemble the ones from Rain World.
+Rythm't'Learn (Disabled/Normal/Doubles)       [DISABLED]> Makes some of the game mechanics go at the rythm of the music playing in that moment.
+Speedrun Timer (Disabled/Level/Save File)     [DISABLED]> Adds a special cronometer which, well, allows to have a more-or-so exact time measuring.
+Sprite Limit (Unlimited/[Numeral])           [UNLIMITED]> 

@@ -1,0 +1,23 @@
+Gen* = General Stff (Blocks without main function)
+UNUSED_* = Stuff that god discarted. NOT recomended to use them.
+
+add more later on.
+
+TODO:
+
+- Do the P1 sprites (P2 will just use a recolor of said P1 sprites)
+- Import finished textures (ground tiles, Mushroom platform, etc)
+- Code special blocks (Bricks, item boxes, etc)
+- Make LDTk usable to make levels.
+
+Optional:
+
+- Internet connectivity (Time trials, )
+- Bonus levels
+- Level/World selector
+- Overworld map (Kind of like SMB3?)
+- Options menu
+    - If this turns out correctly, we can also maybe add an "Endable Semisolids Collisions" option?
+    - Also a key remapper, but I don't think this will fly.
+- Uploading the OST in YT would be quite nice tho.
+- Level Intros (Ah... This w[on't]ill be fun.)
