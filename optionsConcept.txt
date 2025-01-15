@@ -17,14 +17,13 @@ General Sound Effects Quietness (5 > 1)               [3]> How intense the sound
 Music selection (Vanilla/SMB Remix)             [VANILLA]> Which soundtrack to play ingame.
 LowTime Music SpeedUp (True/False)                 [TRUE]> When the Timer hits 100 seconds (or less), the music should play faster or not?
 
-
 -- VIDEO --
-
-
+Flashy Lights (True/False)                         [TRUE]> Ouchie ouchie ouch- Endables flashy light, be it like the thunderstorm effect- ouch-
+Visual guides (True/False)                         [TRUE]> Endables small visual additions that helps the player explore the game in a more calm way.
+Alternative HUD (Vanilla/Minimized/Disabled)    [Vanilla]> Changes the type of HUD used. This won't disable their mechanics, tho, it just hides the data shown by the HUD.
 
 -- SPECIAL --
-Slugcat Gameplay (None/Visual/Physics/Both)       [None]> Allows the player to play in a "Slugcat" manner, reminiscent of Rain World's gameplay.
-RW-esque SFX (True/False)                        [FALSE]> Makes the sounds of the game resemble the ones from Rain World.
-Rythm't'Learn (Disabled/Normal/Doubles)       [DISABLED]> Makes some of the game mechanics go at the rythm of the music playing in that moment.
-Speedrun Timer (Disabled/Level/Save File)     [DISABLED]> Adds a special cronometer which, well, allows to have a more-or-so exact time measuring.
-Sprite Limit (Unlimited/[Numeral])           [UNLIMITED]> 
+Slugcat Gameplay (None/Visual/Physics/Both)        [None]> Allows the player to play in a "Slugcat" manner, reminiscent of Rain World's gameplay.
+RW-esque SFX (True/False)                         [FALSE]> Makes the sounds of the game resemble the ones from Rain World.
+Rythm't'Learn (Disabled/Normal/Doubles)        [DISABLED]> Makes some of the game mechanics go at the rythm of the music playing in that moment.
+Speedrun Timer (Disabled/Level/Save File)      [DISABLED]> Adds a special cronometer which, well, allows to have a more-or-so exact time measuring.
