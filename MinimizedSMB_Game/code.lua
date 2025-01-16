@@ -23,6 +23,8 @@ end
 function Update(timeDelta)
 
   DrawText(os.date("%S:%M:%H"), 4, 20, DrawMode.Sprite, "GenHUD", 55)
+  DrawText("BG COLOR ID: ".. BackgroundColor(), 84, 12, DrawMode.Sprite, "GenHUD", 55)
+  DrawText("ACRIVE SPR.: ".. TotalSprites(true), 84, 20, DrawMode.Sprite, "GenHUD", 55)
 
 end
 
