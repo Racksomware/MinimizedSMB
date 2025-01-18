@@ -1,0 +1,177 @@
+{
+	"identifier": "Screen_5_Depth_0",
+	"uniqueIdentifer": "997e2cd0-c210-11ef-a9f5-e172f5e89022",
+	"x": 2816,
+	"y": -240,
+	"width": 256,
+	"height": 1200,
+	"bgColor": "#61A2FF",
+	"neighbourLevels": [],
+	"customFields": {
+		"LEVEL_THEME": "RAINWORLD",
+		"LEVEL_DAYTIME": "SUNSET",
+		"LEVEL_DIRECTION": "UP",
+		"LEVEL_ForceSemisolid": "CarryOldSetting"
+	},
+	"layers": [
+		"Decor_Test1.png",
+		"DEF_GenTILE.png"
+	],
+	"entities": {
+		"Gen_Bridge": [
+			{
+				"id": "Gen_Bridge",
+				"iid": "93481910-c210-11ef-a9f5-d973ddfca351",
+				"layer": "SPECIAL_GenTILE",
+				"x": 64,
+				"y": 864,
+				"width": 128,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "f56b6390-c210-11ef-a9f5-599fda1c285a",
+				"layer": "SPECIAL_GenTILE",
+				"x": 80,
+				"y": 1088,
+				"width": 96,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "39b7b6b0-c210-11ef-a9f5-7186a790b7fc",
+				"layer": "SPECIAL_GenTILE",
+				"x": 96,
+				"y": 800,
+				"width": 64,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "3b628080-c210-11ef-a9f5-ef728110943f",
+				"layer": "SPECIAL_GenTILE",
+				"x": 48,
+				"y": 736,
+				"width": 64,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "3d672a20-c210-11ef-a9f5-f5a7784ac36c",
+				"layer": "SPECIAL_GenTILE",
+				"x": 48,
+				"y": 656,
+				"width": 64,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "3ff21ac0-c210-11ef-a9f5-a789292ca885",
+				"layer": "SPECIAL_GenTILE",
+				"x": 144,
+				"y": 624,
+				"width": 64,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "41d4e480-c210-11ef-a9f5-1513fe71d673",
+				"layer": "SPECIAL_GenTILE",
+				"x": 96,
+				"y": 560,
+				"width": 64,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			},
+			{
+				"id": "Gen_Bridge",
+				"iid": "45a5c2a0-c210-11ef-a9f5-b7ff3b8a9ed6",
+				"layer": "SPECIAL_GenTILE",
+				"x": 80,
+				"y": 480,
+				"width": 96,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			}
+		],
+		"PlayerSPAWN": [
+			{
+				"id": "PlayerSPAWN",
+				"iid": "fa95de40-c210-11ef-a9f5-8b0b504f6bbe",
+				"layer": "SPECIAL_GenTILE",
+				"x": 112,
+				"y": 1072,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"Player_ENTRANCE": "JUMPIN",
+					"Player_LOOKLEFT": false,
+					"Player_HOLDPOWER": true
+				}
+			}
+		],
+		"Gen_ItemBox": [
+			{
+				"id": "Gen_ItemBox",
+				"iid": "4a2d3c00-c210-11ef-a9f5-fd8d86fa0515",
+				"layer": "SPECIAL_GenTILE",
+				"x": 64,
+				"y": 992,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "4a88f090-c210-11ef-a9f5-d1445424b47e",
+				"layer": "SPECIAL_GenTILE",
+				"x": 176,
+				"y": 992,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			}
+		]
+	}
+}

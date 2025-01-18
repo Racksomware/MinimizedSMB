@@ -1,0 +1,222 @@
+{
+	"identifier": "Screen_1_Depth_0",
+	"uniqueIdentifer": "462b2b50-c210-11ef-a332-6bf0d2c14968",
+	"x": 768,
+	"y": 240,
+	"width": 1536,
+	"height": 240,
+	"bgColor": "#61A2FF",
+	"neighbourLevels": [
+		{
+			"levelIid": "25545c10-c210-11ef-a332-4b2c80cbfae3",
+			"dir": "nw"
+		},
+		{
+			"levelIid": "29a014e0-c210-11ef-a332-43f91f19bff0",
+			"dir": "n"
+		}
+	],
+	"customFields": {
+		"LEVEL_THEME": "GROUND",
+		"LEVEL_DAYTIME": "SUNSET",
+		"LEVEL_DIRECTION": "RIGHT",
+		"LEVEL_ForceSemisolid": "CarryOldSetting"
+	},
+	"layers": [
+		"Decor_Test1.png",
+		"DEF_GenTILE.png"
+	],
+	"entities": {
+		"Gen_Bridge": [
+			{
+				"id": "Gen_Bridge",
+				"iid": "623b4ff0-c210-11ef-a332-6f9da29df87c",
+				"layer": "SPECIAL_GenTILE",
+				"x": 192,
+				"y": 176,
+				"width": 96,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Point": null
+				}
+			}
+		],
+		"Gen_Bricks": [
+			{
+				"id": "Gen_Bricks",
+				"iid": "80953d80-c210-11ef-a332-3d2c13f88e60",
+				"layer": "SPECIAL_GenTILE",
+				"x": 240,
+				"y": 144,
+				"width": 32,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "849e42a0-c210-11ef-a332-a56fdd3497a9",
+				"layer": "SPECIAL_GenTILE",
+				"x": 256,
+				"y": 96,
+				"width": 32,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "b89a3690-c210-11ef-a332-c398c1a03c78",
+				"layer": "SPECIAL_GenTILE",
+				"x": 176,
+				"y": 112,
+				"width": 32,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "bae14060-c210-11ef-a332-2d3ed9f1ba55",
+				"layer": "SPECIAL_GenTILE",
+				"x": 160,
+				"y": 64,
+				"width": 32,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "836d7630-c210-11ef-a9f5-03795f0a0a0c",
+				"layer": "SPECIAL_GenTILE",
+				"x": 1312,
+				"y": 176,
+				"width": 80,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "8417e700-c210-11ef-a9f5-f191cb8ea2f0",
+				"layer": "SPECIAL_GenTILE",
+				"x": 1312,
+				"y": 160,
+				"width": 80,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			}
+		],
+		"Gen_ItemBox": [
+			{
+				"id": "Gen_ItemBox",
+				"iid": "834e9120-c210-11ef-a332-2b992a0403b1",
+				"layer": "SPECIAL_GenTILE",
+				"x": 272,
+				"y": 144,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "bbf1c600-c210-11ef-a332-87fbefe29b6a",
+				"layer": "SPECIAL_GenTILE",
+				"x": 160,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "bcb08220-c210-11ef-a332-2d89600b3e5c",
+				"layer": "SPECIAL_GenTILE",
+				"x": 160,
+				"y": 16,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			}
+		],
+		"Gen_PipeV": [
+			{
+				"id": "Gen_PipeV",
+				"iid": "f9a11820-c210-11ef-a332-e5375a612c3f",
+				"layer": "SPECIAL_GenTILE",
+				"x": 528,
+				"y": 128,
+				"width": 32,
+				"height": 48,
+				"color": 2513986,
+				"customFields": {
+					"PipeUNI_ConnectedTo": {
+						"entityIid": "6af8b8e0-c210-11ef-bfff-8dda1a415f0a",
+						"layerIid": "29a014e2-c210-11ef-a332-cf79a1904db2",
+						"levelIid": "29a014e0-c210-11ef-a332-43f91f19bff0",
+						"worldIid": "25540df0-c210-11ef-a332-99290e8b0c76"
+					}
+				}
+			},
+			{
+				"id": "Gen_PipeV",
+				"iid": "023214e0-c210-11ef-a9f5-4f173c26f234",
+				"layer": "SPECIAL_GenTILE",
+				"x": 784,
+				"y": 32,
+				"width": 32,
+				"height": 48,
+				"color": 2513986,
+				"customFields": {
+					"PipeUNI_ConnectedTo": null
+				}
+			},
+			{
+				"id": "Gen_PipeV",
+				"iid": "0349ed80-c210-11ef-a9f5-49bd77aa29e7",
+				"layer": "SPECIAL_GenTILE",
+				"x": 816,
+				"y": 32,
+				"width": 32,
+				"height": 64,
+				"color": 2513986,
+				"customFields": {
+					"PipeUNI_ConnectedTo": null
+				}
+			}
+		],
+		"Gen_WARP": [
+			{
+				"id": "Gen_WARP",
+				"iid": "823a6580-c210-11ef-bfff-4f29e47d0361",
+				"layer": "SPECIAL_GenTILE",
+				"x": 32,
+				"y": 0,
+				"width": 32,
+				"height": 32,
+				"color": 6830188,
+				"customFields": {
+					"Warp_EXITANIM": "SPAWN"
+				}
+			}
+		]
+	}
+}

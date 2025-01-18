@@ -1,0 +1,295 @@
+{
+	"identifier": "Screen_4_Depth_0",
+	"uniqueIdentifer": "f47d45f0-c210-11ef-a9f5-31b57596dd79",
+	"x": 1280,
+	"y": 1200,
+	"width": 256,
+	"height": 240,
+	"bgColor": "#61A2FF",
+	"neighbourLevels": [],
+	"customFields": {
+		"LEVEL_THEME": "UNDERGROUND",
+		"LEVEL_DAYTIME": "DAY",
+		"LEVEL_DIRECTION": "RIGHT",
+		"LEVEL_ForceSemisolid": "CarryOldSetting"
+	},
+	"layers": [
+		"Decor_Test1.png",
+		"DEF_GenTILE.png"
+	],
+	"entities": {
+		"Gen_WARP": [
+			{
+				"id": "Gen_WARP",
+				"iid": "093ab8b0-c210-11ef-a9f5-d99bee2ad110",
+				"layer": "SPECIAL_GenTILE",
+				"x": 32,
+				"y": 0,
+				"width": 32,
+				"height": 32,
+				"color": 6830188,
+				"customFields": {
+					"Warp_EXITANIM": "SPAWN"
+				}
+			}
+		],
+		"Gen_PipeV": [
+			{
+				"id": "Gen_PipeV",
+				"iid": "2927d3f0-c210-11ef-a9f5-eb7a1493990a",
+				"layer": "SPECIAL_GenTILE",
+				"x": 224,
+				"y": -16,
+				"width": 32,
+				"height": 240,
+				"color": 2513986,
+				"customFields": {
+					"PipeUNI_ConnectedTo": null
+				}
+			}
+		],
+		"Gen_Bricks": [
+			{
+				"id": "Gen_Bricks",
+				"iid": "31f27fd0-c210-11ef-a9f5-7d1210524d55",
+				"layer": "SPECIAL_GenTILE",
+				"x": 96,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "34181ef0-c210-11ef-a9f5-f1b18cae7f8d",
+				"layer": "SPECIAL_GenTILE",
+				"x": 112,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "53aef950-c210-11ef-a9f5-dbf06325a1f9",
+				"layer": "SPECIAL_GenTILE",
+				"x": 128,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "567210f0-c210-11ef-a9f5-cd5bf46e14cb",
+				"layer": "SPECIAL_GenTILE",
+				"x": 160,
+				"y": 64,
+				"width": 32,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "56c36540-c210-11ef-a9f5-5d73d223a22d",
+				"layer": "SPECIAL_GenTILE",
+				"x": 208,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "59656050-c210-11ef-a9f5-cfc28bb5d2af",
+				"layer": "SPECIAL_GenTILE",
+				"x": 160,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "5a218460-c210-11ef-a9f5-ef79ee8740cb",
+				"layer": "SPECIAL_GenTILE",
+				"x": 208,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "5cec3d20-c210-11ef-a9f5-2f552740eaf1",
+				"layer": "SPECIAL_GenTILE",
+				"x": 176,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			},
+			{
+				"id": "Gen_Bricks",
+				"iid": "5d68e730-c210-11ef-a9f5-73f5ac35253c",
+				"layer": "SPECIAL_GenTILE",
+				"x": 128,
+				"y": 160,
+				"width": 32,
+				"height": 16,
+				"color": 12087120,
+				"customFields" : {}
+			}
+		],
+		"Gen_PipeH_STATIC": [
+			{
+				"id": "Gen_PipeH_STATIC",
+				"iid": "38c30960-c210-11ef-a9f5-a71e170591f7",
+				"layer": "SPECIAL_GenTILE",
+				"x": 192,
+				"y": 176,
+				"width": 64,
+				"height": 32,
+				"color": 2513986,
+				"customFields": {
+					"PipeUNI_ConnectedTo": {
+						"entityIid": "1c224810-c210-11ef-a9f5-2f8daefd4fec",
+						"layerIid": "3d473953-c210-11ef-a9f5-958b0d265aaa",
+						"levelIid": "3d473950-c210-11ef-a9f5-9fa2af0f9d0a",
+						"worldIid": "25540df0-c210-11ef-a332-99290e8b0c76"
+					}
+				}
+			}
+		],
+		"Gen_ItemBox": [
+			{
+				"id": "Gen_ItemBox",
+				"iid": "5f3f2dd0-c210-11ef-a9f5-fdde3268c63c",
+				"layer": "SPECIAL_GenTILE",
+				"x": 112,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "5f95d950-c210-11ef-a9f5-0565578bbcd3",
+				"layer": "SPECIAL_GenTILE",
+				"x": 160,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "5fe22490-c210-11ef-a9f5-0364881028b6",
+				"layer": "SPECIAL_GenTILE",
+				"x": 128,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "60101260-c210-11ef-a9f5-a91edcf8fb7a",
+				"layer": "SPECIAL_GenTILE",
+				"x": 144,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "6047eb40-c210-11ef-a9f5-53dd65fe32da",
+				"layer": "SPECIAL_GenTILE",
+				"x": 176,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "608c9560-c210-11ef-a9f5-193dbbeadb98",
+				"layer": "SPECIAL_GenTILE",
+				"x": 192,
+				"y": 112,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "61017740-c210-11ef-a9f5-399da2a04ccb",
+				"layer": "SPECIAL_GenTILE",
+				"x": 192,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			},
+			{
+				"id": "Gen_ItemBox",
+				"iid": "615a93c0-c210-11ef-a9f5-6f0786d4ce39",
+				"layer": "SPECIAL_GenTILE",
+				"x": 144,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 16690740,
+				"customFields": {
+					"ITEM_OBJECT": null,
+					"ITEM_HIDEBRICKS": false,
+					"ITEM_MORETHANONE": false
+				}
+			}
+		]
+	}
+}
