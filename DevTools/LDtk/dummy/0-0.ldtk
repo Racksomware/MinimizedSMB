@@ -1262,7 +1262,7 @@
 			"maxHeight": null,
 			"keepAspectRatio": false,
 			"tileOpacity": 1,
-			"fillOpacity": 1,
+			"fillOpacity": 0.32,
 			"lineOpacity": 1,
 			"hollow": false,
 			"color": "#E43B44",
@@ -1282,7 +1282,7 @@
 				{
 					"identifier": "Player_ENTRANCE",
 					"doc": "Tells the game to play a specific animation on level intro.\n\n For inverted intros (Such as walking from right), use the \"Player_LOOKLEFT\" in conjuction of this one tag.",
-					"__type": "LocalEnum.GEN_ANIM",
+					"__type": "LocalEnum.SPEC_INTROANIM",
 					"uid": 32,
 					"type": "F_Enum(30)",
 					"isArray": false,
@@ -1415,7 +1415,7 @@
 			"maxHeight": null,
 			"keepAspectRatio": false,
 			"tileOpacity": 1,
-			"fillOpacity": 1,
+			"fillOpacity": 0.32,
 			"lineOpacity": 1,
 			"hollow": false,
 			"color": "#68386C",
@@ -1435,7 +1435,7 @@
 				{
 					"identifier": "Warp_EXITANIM",
 					"doc": "Used mainly for special warps, but by default left at the value \"SPAWN\".",
-					"__type": "LocalEnum.GEN_ANIM",
+					"__type": "LocalEnum.SPEC_INTROANIM",
 					"uid": 43,
 					"type": "F_Enum(30)",
 					"isArray": false,
@@ -1533,14 +1533,14 @@
 			}
 		},
 		{
-			"__cWid": 9,
-			"__cHei": 5,
+			"__cWid": 10,
+			"__cHei": 6,
 			"identifier": "DayTime",
 			"uid": 44,
 			"relPath": "DayTime.png",
 			"embedAtlas": null,
-			"pxWid": 144,
-			"pxHei": 80,
+			"pxWid": 160,
+			"pxHei": 96,
 			"tileGridSize": 16,
 			"spacing": 0,
 			"padding": 0,
@@ -1550,8 +1550,8 @@
 			"customData": [],
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "000000000000000000000000000000000000000000000",
-				"averageColors": "dba1bb60baaa000000000000000000000000a823a8237823000000000000000000000000a823a8237823000000000000000000000000000000000000000000000000000000000000a361d9245666000000000000000000000000"
+				"opaqueTiles": "000000000000000000000000000000000000000000000000000000000000",
+				"averageColors": "dba1bb60baaa00007977699969777999c7669aaaa823a8237823000088885777b8889555a777c555a823a8237823000089888988d997c786b8a579880000000000000000c8a5a69368889877f796a644a361d9245666000000000000000000006977b77700000000000000000000000000000000a7775555"
 			}
 		}
 	], "enums": [
@@ -1568,15 +1568,15 @@
 			{ "id": "SUNSET", "tileRect": { "tilesetUid": 44, "x": 16, "y": 0, "w": 16, "h": 16 }, "color": 12470831 },
 			{ "id": "NIGHT", "tileRect": { "tilesetUid": 44, "x": 32, "y": 0, "w": 16, "h": 16 }, "color": 1578021 }
 		], "iconTilesetUid": 44, "externalRelPath": null, "externalFileChecksum": null, "tags": ["LevelDesign"] },
-		{ "identifier": "GEN_ANIM", "uid": 30, "values": [
-			{ "id": "SPAWN", "tileRect": null, "color": 14957380 },
-			{ "id": "WALK", "tileRect": null, "color": 1199753 },
-			{ "id": "RUN", "tileRect": null, "color": 39387 },
-			{ "id": "JUMPIN", "tileRect": null, "color": 11882632 },
-			{ "id": "PIPE_UP", "tileRect": null, "color": 6539085 },
-			{ "id": "PIPE_SIDES", "tileRect": null, "color": 4098376 },
-			{ "id": "PIPE_DOWN", "tileRect": null, "color": 2513986 }
-		], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null, "tags": [ "MultiCall", "WarpSpecific" ] },
+		{ "identifier": "SPEC_INTROANIM", "uid": 30, "values": [
+			{ "id": "SPAWN", "tileRect": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 }, "color": 14957380 },
+			{ "id": "WALK", "tileRect": { "tilesetUid": 44, "x": 96, "y": 0, "w": 32, "h": 32 }, "color": 1199753 },
+			{ "id": "RUN", "tileRect": { "tilesetUid": 44, "x": 128, "y": 0, "w": 32, "h": 32 }, "color": 39387 },
+			{ "id": "JUMPIN", "tileRect": { "tilesetUid": 44, "x": 128, "y": 64, "w": 32, "h": 32 }, "color": 11882632 },
+			{ "id": "PIPE_UP", "tileRect": { "tilesetUid": 44, "x": 64, "y": 32, "w": 32, "h": 32 }, "color": 6539085 },
+			{ "id": "PIPE_SIDES", "tileRect": { "tilesetUid": 44, "x": 128, "y": 32, "w": 32, "h": 32 }, "color": 4098376 },
+			{ "id": "PIPE_DOWN", "tileRect": { "tilesetUid": 44, "x": 96, "y": 32, "w": 32, "h": 32 }, "color": 2513986 }
+		], "iconTilesetUid": 44, "externalRelPath": null, "externalFileChecksum": null, "tags": [ "MultiCall", "WarpSpecific" ] },
 		{ "identifier": "AREA_DIRECTION", "uid": 50, "values": [
 			{ "id": "RIGHT", "tileRect": { "tilesetUid": 44, "x": 16, "y": 16, "w": 16, "h": 16 }, "color": 14957380 },
 			{ "id": "LEFT", "tileRect": { "tilesetUid": 44, "x": 0, "y": 32, "w": 16, "h": 16 }, "color": 6539085 },
@@ -1713,7 +1713,7 @@
 		},
 		{
 			"identifier": "LEVEL_ForceSemisolid",
-			"doc": "Makes objects that have the Semisolid propierty (like the bridges and platform mushrooms), be forced to have a Semisolid-like functionality like in modern games. \\n\\n \"CarryOldSetting\" will only carry the last value of said config, and if none found, defaults to false ingame.",
+			"doc": "Makes objects that have the Semisolid propierty (like the bridges and platform mushrooms), be forced to have a Semisolid-like functionality like in modern games. \n\n \"CarryOldSetting\" will only carry the last value of said config, and if none found, defaults to false ingame.",
 			"__type": "LocalEnum.AREA_ForceSemisolid",
 			"uid": 68,
 			"type": "F_Enum(55)",
@@ -1812,10 +1812,10 @@
 						0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,
 						1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,
 						0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-						0,0,0,0,0,0,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,
+						0,0,0,0,0,0,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,2,0,0,0,0,0,
 						0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
-						1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,
-						0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+						1,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,
+						0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 						0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 						1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,
 						1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,
@@ -2164,9 +2164,12 @@
 						{ "px": [480,128], "src": [224,112], "f": 0, "t": 448, "d": [70,414], "a": 1 },
 						{ "px": [464,144], "src": [224,112], "f": 0, "t": 448, "d": [70,461], "a": 1 },
 						{ "px": [480,144], "src": [224,112], "f": 0, "t": 448, "d": [70,462], "a": 1 },
+						{ "px": [64,160], "src": [224,112], "f": 0, "t": 448, "d": [70,484], "a": 1 },
 						{ "px": [448,160], "src": [224,112], "f": 0, "t": 448, "d": [70,508], "a": 1 },
 						{ "px": [464,160], "src": [224,112], "f": 0, "t": 448, "d": [70,509], "a": 1 },
-						{ "px": [480,160], "src": [224,112], "f": 0, "t": 448, "d": [70,510], "a": 1 }
+						{ "px": [480,160], "src": [224,112], "f": 0, "t": 448, "d": [70,510], "a": 1 },
+						{ "px": [64,176], "src": [224,112], "f": 0, "t": 448, "d": [70,532], "a": 1 },
+						{ "px": [64,192], "src": [224,112], "f": 0, "t": 448, "d": [70,580], "a": 1 }
 					],
 					"seed": 8520968,
 					"overrideTilesetUid": null,
@@ -2215,7 +2218,7 @@
 						},
 						{
 							"__identifier": "Gen_Bricks",
-							"__grid": [8,9],
+							"__grid": [8,8],
 							"__pivot": [0,0],
 							"__tags": ["GenTILE"],
 							"__tile": { "tilesetUid": 2, "x": 160, "y": 16, "w": 48, "h": 16 },
@@ -2224,14 +2227,14 @@
 							"width": 48,
 							"height": 16,
 							"defUid": 22,
-							"px": [128,144],
+							"px": [128,128],
 							"fieldInstances": [],
 							"__worldX": 128,
-							"__worldY": 144
+							"__worldY": 128
 						},
 						{
 							"__identifier": "Gen_Bricks",
-							"__grid": [5,9],
+							"__grid": [5,8],
 							"__pivot": [0,0],
 							"__tags": ["GenTILE"],
 							"__tile": { "tilesetUid": 2, "x": 160, "y": 16, "w": 48, "h": 16 },
@@ -2240,14 +2243,14 @@
 							"width": 32,
 							"height": 16,
 							"defUid": 22,
-							"px": [80,144],
+							"px": [80,128],
 							"fieldInstances": [],
 							"__worldX": 80,
-							"__worldY": 144
+							"__worldY": 128
 						},
 						{
 							"__identifier": "Gen_ItemBox",
-							"__grid": [7,9],
+							"__grid": [7,8],
 							"__pivot": [0,0],
 							"__tags": ["GenTILE"],
 							"__tile": { "tilesetUid": 2, "x": 176, "y": 0, "w": 16, "h": 16 },
@@ -2256,14 +2259,14 @@
 							"width": 16,
 							"height": 16,
 							"defUid": 23,
-							"px": [112,144],
+							"px": [112,128],
 							"fieldInstances": [
 								{ "__identifier": "ITEM_OBJECT", "__type": "EntityRef", "__value": null, "__tile": null, "defUid": 24, "realEditorValues": [] },
 								{ "__identifier": "ITEM_HIDEBRICKS", "__type": "Bool", "__value": false, "__tile": null, "defUid": 26, "realEditorValues": [null] },
 								{ "__identifier": "ITEM_MORETHANONE", "__type": "Bool", "__value": false, "__tile": null, "defUid": 27, "realEditorValues": [null] }
 							],
 							"__worldX": 112,
-							"__worldY": 144
+							"__worldY": 128
 						},
 						{
 							"__identifier": "Gen_Bricks",
@@ -2299,7 +2302,7 @@
 						},
 						{
 							"__identifier": "Gen_Bricks",
-							"__grid": [10,5],
+							"__grid": [10,4],
 							"__pivot": [0,0],
 							"__tags": ["GenTILE"],
 							"__tile": { "tilesetUid": 2, "x": 160, "y": 16, "w": 48, "h": 16 },
@@ -2308,10 +2311,10 @@
 							"width": 32,
 							"height": 16,
 							"defUid": 22,
-							"px": [160,80],
+							"px": [160,64],
 							"fieldInstances": [],
 							"__worldX": 160,
-							"__worldY": 80
+							"__worldY": 64
 						},
 						{
 							"__identifier": "Gen_ItemBox",
@@ -2398,22 +2401,25 @@
 						},
 						{
 							"__identifier": "PlayerSPAWN",
-							"__grid": [10,11],
+							"__grid": [6,11],
 							"__pivot": [0,0],
 							"__tags": [ "SPECIAL", "WARP_EXIT", "WARP_GEN" ],
-							"__tile": null,
+							"__tile": { "tilesetUid": 44, "x": 64, "y": 32, "w": 32, "h": 32 },
 							"__smartColor": "#E43B44",
 							"iid": "ccef34c0-c210-11ef-bfff-edb5bb9d8ca5",
 							"width": 32,
 							"height": 32,
 							"defUid": 31,
-							"px": [160,176],
+							"px": [96,176],
 							"fieldInstances": [
-								{ "__identifier": "Player_ENTRANCE", "__type": "LocalEnum.GEN_ANIM", "__value": "SPAWN", "__tile": null, "defUid": 32, "realEditorValues": [] },
+								{ "__identifier": "Player_ENTRANCE", "__type": "LocalEnum.SPEC_INTROANIM", "__value": "PIPE_UP", "__tile": { "tilesetUid": 44, "x": 64, "y": 32, "w": 32, "h": 32 }, "defUid": 32, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["PIPE_UP"]
+								}] },
 								{ "__identifier": "Player_LOOKLEFT", "__type": "Bool", "__value": false, "__tile": null, "defUid": 34, "realEditorValues": [] },
 								{ "__identifier": "Player_HOLDPOWER", "__type": "Bool", "__value": true, "__tile": null, "defUid": 35, "realEditorValues": [] }
 							],
-							"__worldX": 160,
+							"__worldX": 96,
 							"__worldY": 176
 						}
 					]
@@ -3301,14 +3307,14 @@
 							"__grid": [2,0],
 							"__pivot": [0,0],
 							"__tags": [ "WARP_EXIT", "WARP_GEN", "GenTILE" ],
-							"__tile": null,
+							"__tile": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 },
 							"__smartColor": "#68386C",
 							"iid": "823a6580-c210-11ef-bfff-4f29e47d0361",
 							"width": 32,
 							"height": 32,
 							"defUid": 42,
 							"px": [32,0],
-							"fieldInstances": [{ "__identifier": "Warp_EXITANIM", "__type": "LocalEnum.GEN_ANIM", "__value": "SPAWN", "__tile": null, "defUid": 43, "realEditorValues": [] }],
+							"fieldInstances": [{ "__identifier": "Warp_EXITANIM", "__type": "LocalEnum.SPEC_INTROANIM", "__value": "SPAWN", "__tile": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 }, "defUid": 43, "realEditorValues": [] }],
 							"__worldX": 800,
 							"__worldY": 240
 						},
@@ -3827,14 +3833,14 @@
 							"__grid": [2,0],
 							"__pivot": [0,0],
 							"__tags": [ "WARP_EXIT", "WARP_GEN", "GenTILE" ],
-							"__tile": null,
+							"__tile": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 },
 							"__smartColor": "#68386C",
 							"iid": "6af8b8e0-c210-11ef-bfff-8dda1a415f0a",
 							"width": 32,
 							"height": 32,
 							"defUid": 42,
 							"px": [32,0],
-							"fieldInstances": [{ "__identifier": "Warp_EXITANIM", "__type": "LocalEnum.GEN_ANIM", "__value": "SPAWN", "__tile": null, "defUid": 43, "realEditorValues": [] }],
+							"fieldInstances": [{ "__identifier": "Warp_EXITANIM", "__type": "LocalEnum.SPEC_INTROANIM", "__value": "SPAWN", "__tile": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 }, "defUid": 43, "realEditorValues": [] }],
 							"__worldX": 1312,
 							"__worldY": 0
 						},
@@ -4581,7 +4587,7 @@
 							"__grid": [3,11],
 							"__pivot": [0,0],
 							"__tags": [ "SPECIAL", "WARP_EXIT", "WARP_GEN" ],
-							"__tile": null,
+							"__tile": { "tilesetUid": 44, "x": 96, "y": 0, "w": 32, "h": 32 },
 							"__smartColor": "#E43B44",
 							"iid": "8fff3800-c210-11ef-a9f5-7ffb1a8d1d78",
 							"width": 32,
@@ -4589,11 +4595,11 @@
 							"defUid": 31,
 							"px": [48,176],
 							"fieldInstances": [
-								{ "__identifier": "Player_ENTRANCE", "__type": "LocalEnum.GEN_ANIM", "__value": "WALK", "__tile": null, "defUid": 32, "realEditorValues": [{
+								{ "__identifier": "Player_ENTRANCE", "__type": "LocalEnum.SPEC_INTROANIM", "__value": "WALK", "__tile": { "tilesetUid": 44, "x": 96, "y": 0, "w": 32, "h": 32 }, "defUid": 32, "realEditorValues": [{
 									"id": "V_String",
 									"params": ["WALK"]
 								}] },
-								{ "__identifier": "Player_LOOKLEFT", "__type": "Bool", "__value": false, "__tile": null, "defUid": 34, "realEditorValues": [] },
+								{ "__identifier": "Player_LOOKLEFT", "__type": "Bool", "__value": false, "__tile": null, "defUid": 34, "realEditorValues": [null] },
 								{ "__identifier": "Player_HOLDPOWER", "__type": "Bool", "__value": true, "__tile": null, "defUid": 35, "realEditorValues": [] }
 							],
 							"__worldX": 48,
@@ -5517,14 +5523,14 @@
 							"__grid": [2,0],
 							"__pivot": [0,0],
 							"__tags": [ "WARP_EXIT", "WARP_GEN", "GenTILE" ],
-							"__tile": null,
+							"__tile": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 },
 							"__smartColor": "#68386C",
 							"iid": "093ab8b0-c210-11ef-a9f5-d99bee2ad110",
 							"width": 32,
 							"height": 32,
 							"defUid": 42,
 							"px": [32,0],
-							"fieldInstances": [{ "__identifier": "Warp_EXITANIM", "__type": "LocalEnum.GEN_ANIM", "__value": "SPAWN", "__tile": null, "defUid": 43, "realEditorValues": [] }],
+							"fieldInstances": [{ "__identifier": "Warp_EXITANIM", "__type": "LocalEnum.SPEC_INTROANIM", "__value": "SPAWN", "__tile": { "tilesetUid": 44, "x": 64, "y": 0, "w": 32, "h": 32 }, "defUid": 43, "realEditorValues": [] }],
 							"__worldX": 1312,
 							"__worldY": 1200
 						},
@@ -6059,7 +6065,7 @@
 							"__grid": [7,67],
 							"__pivot": [0,0],
 							"__tags": [ "SPECIAL", "WARP_EXIT", "WARP_GEN" ],
-							"__tile": null,
+							"__tile": { "tilesetUid": 44, "x": 128, "y": 64, "w": 32, "h": 32 },
 							"__smartColor": "#E43B44",
 							"iid": "fa95de40-c210-11ef-a9f5-8b0b504f6bbe",
 							"width": 32,
@@ -6067,7 +6073,7 @@
 							"defUid": 31,
 							"px": [112,1072],
 							"fieldInstances": [
-								{ "__identifier": "Player_ENTRANCE", "__type": "LocalEnum.GEN_ANIM", "__value": "JUMPIN", "__tile": null, "defUid": 32, "realEditorValues": [{
+								{ "__identifier": "Player_ENTRANCE", "__type": "LocalEnum.SPEC_INTROANIM", "__value": "JUMPIN", "__tile": { "tilesetUid": 44, "x": 128, "y": 64, "w": 32, "h": 32 }, "defUid": 32, "realEditorValues": [{
 									"id": "V_String",
 									"params": ["JUMPIN"]
 								}] },
