@@ -958,7 +958,7 @@
 			"tags": ["GenTILE"],
 			"exportToToc": false,
 			"allowOutOfBounds": false,
-			"doc": "Entity tile for the special variation of the Item Box. \\n W.I.P.",
+			"doc": "Entity tile for the special variation of the Item Box. \n W.I.P.",
 			"width": 16,
 			"height": 16,
 			"resizableX": false,
@@ -5940,7 +5940,10 @@
 					"id": "V_String",
 					"params": ["UP"]
 				}] },
-				{ "__identifier": "LEVEL_ForceSemisolid", "__type": "LocalEnum.AREA_ForceSemisolid", "__value": "CarryOldSetting", "__tile": null, "defUid": 68, "realEditorValues": [] }
+				{ "__identifier": "LEVEL_ForceSemisolid", "__type": "LocalEnum.AREA_ForceSemisolid", "__value": "CarryOldSetting", "__tile": null, "defUid": 68, "realEditorValues": [{
+					"id": "V_String",
+					"params": ["CarryOldSetting"]
+				}] }
 			],
 			"layerInstances": [
 				{

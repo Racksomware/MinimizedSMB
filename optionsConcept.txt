@@ -7,7 +7,7 @@ Physics Engine (Vanilla/Original SMB/SMW)           [VANILLA]> Makes the physics
 Endable Semisolids (True/False)                       [FALSE]> Allow that for certain objects they work as Semisolids from recent games.
 Overworld Map (True/False)                             [TRUE]> Endables (or disables) the Overworld map, if someone isn't really in the mood to manually select a level.
 Toggle Timer In Levels (True/False)                    [TRUE]> For levels that doesn't force a timer, this setting allows you to disable said Levels Timer.
-Fast Respawn (Vanilla/Fast/Instant)                 [Vanilla]> When you die, you wait a little time. This option makes you, well, waste less time.
+Fast Respawn (Vanilla/Fast/Instant)                 [VANILLA]> When you die, you wait a little time. This option makes you, well, waste less time.
 
 -- AUDIO --
 Sound Effects Volume (5 > 0)                              [4]> Just ya' typical sound settings!
@@ -20,7 +20,7 @@ LowTime Music SpeedUp (True/False)                     [TRUE]> When the Timer hi
 -- VIDEO --
 Flashy Lights (True/False)                             [TRUE]> Ouchie ouchie ouch- Endables flashy light, be it like the thunderstorm effect- ouch-
 Visual guides (True/False)                             [TRUE]> Endables small visual additions that helps the player explore the game in a more calm way.
-Alternative HUD (Vanilla/Minimized/Disabled)        [Vanilla]> Changes the type of HUD used. This won't disable their mechanics, tho, it just hides the data shown by the HUD.
+Alternative HUD (Vanilla/Minimized/Disabled)        [VANILLA]> Changes the type of HUD used. This won't disable their mechanics, tho, it just hides the data shown by the HUD.
 
 -- SPECIAL --
 Slugcat Gameplay (None/Visual/Physics/Both)            [None]> Allows the player to play in a "Slugcat" manner, reminiscent of Rain World's gameplay.
